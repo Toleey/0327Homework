@@ -1,0 +1,108 @@
+.main_con{
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+}
+
+.user{
+	background-color: #656565;
+	height: 2.5rem;
+	width: 100%;
+
+}
+.user img{
+	height: 2.3rem;
+	margin-top: 0.16rem;
+}
+.user h3{
+	font-weight: normal;
+	color: white;
+	line-height: 2.5rem;
+	text-align: center;
+}
+.user .search_con{
+	height: 2.0rem;
+	margin-right: 2%;
+	margin-top: 0.3rem;
+}
+.banner{
+	height: 9.0rem;
+	width: 100%;
+	position: relative;
+	overflow: hidden;
+}
+.banner .slide li img{
+	height: 9.0rem;
+	width: 100%;
+}
+.banner .slide{
+	height: 9.0rem;
+	width: 100%;
+	position: absolute;
+	left: 0;
+	top: 0;
+}
+.points{
+	position: absolute;
+	width: 100%;
+	height: 0.275rem;
+	left: 0;
+	bottom:0.7rem;
+	font-size: 0;
+	text-align: center;
+}
+.points li{
+	display: inline-block;
+	width: 0.35rem;
+	height: 0.35rem;
+	border-radius: 50%;
+	background-color: #cecece;
+	margin: 0 0.8rem;
+	cursor: pointer;
+}
+.points .active{
+	background-color: grey
+}
+.toppest_list{
+	width: 100%;
+	margin-top: 1%;
+}
+.toppest_list h3,a{
+	font-weight: normal;
+	color: #4E4E4E
+}
+.toppest_list .tl1{
+	margin-left: 3%;
+}
+.toppest_list .tl2{
+	margin-right:3%; 
+}
+.book_info{
+	border: 1px solid #CDD8D2;
+}
+.book_info img{
+	height: 8rem;
+	width: 6rem;
+	margin: 2% 4% 2% 4%;
+}
+.book_info ul{
+	width: 15rem;
+	height: 8rem;
+	margin-top: 2%;
+}
+
+.book_info ul li{
+	font-size: 13px;
+	color: #333333
+}
+.book_info .title a{
+	color: #6B917C;
+	font-size: 16px;
+	font-weight: 200;
+}
+.book_info .word1,.word2{
+	color: #666666;
+	font-weight: 300;
+}

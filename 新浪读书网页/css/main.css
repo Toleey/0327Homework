@@ -1,0 +1,86 @@
+header{
+	background-color: #58C0AD;
+	width: 100%;
+	height: 2.8rem；
+}
+header h3{
+	line-height: 2.8rem;
+	text-align: center;
+	font-weight: normal;
+	color: white;
+}
+
+/*--------分割线--------*/
+
+.roll{
+	padding-bottom: 4rem;
+}
+
+footer{
+	background-color: #F7F7FA;
+	width: 100%;
+	height: 3.5rem;
+	position: fixed;
+	bottom: 0;
+	z-index: 999;
+	box-sizing: border-box;
+	font-size: 0;
+	padding: 0.175rem;
+}
+footer ul li{
+	display: inline-block;
+	width: 20%;
+	height: 3.5rem;
+}
+footer ul li a{
+	display: block;
+	width: 2rem;
+	height: 2rem;
+	margin: 0 auto;
+	background-image:url(../images/topBar/navBar1.png);
+	background-repeat: no-repeat;
+	background-position:3px; 
+	background-size: 1.6rem 1.6rem;
+	/*background-color: black;*/
+
+}
+footer ul li:nth-child(2) a{
+	background-image:url(../images/topBar/navBar4.png);
+}
+footer ul li:nth-child(3) a{
+	background-image:url(../images/topBar/navBar3.png);
+}
+footer ul li:nth-child(4) a{
+	background-image:url(../images/topBar/navBar2.png);
+}
+footer ul li:nth-child(5) a{
+	background-image:url(../images/topBar/navBar55.png);
+}
+footer ul li h3{
+	height: 1.2rem;
+	line-height: 1.2rem;
+	text-align: center;
+	font-size: 0.8rem;
+	color: #666;
+}
+footer ul li:hover h3{
+	color: #cd5a52;
+	cursor: pointer;
+	
+}
+footer ul .f1:hover a{
+	background-image: url(../images/topBar/navBar11.png);
+
+}
+footer ul .f2:hover a{ 
+	background-image:url(../images/topBar/navBar44.png);
+}	
+footer ul .f3:hover a{
+	background-image:url(../images/topBar/navBar33.png);
+}
+footer ul .f4:hover a{
+	background-image:url(../images/topBar/navBar22.png);
+}
+footer ul .f5:hover a{
+	background-image:url(../images/topBar/navBar55.png);
+}
