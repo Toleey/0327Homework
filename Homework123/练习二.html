@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+	<meta charset="UTF-8">
+
+	<title>Practice02</title>
+
+	<style>
+		.cal{
+			width:200px;
+			height:300px;
+			margin:0 auto;
+		}
+		.num1,.num2{
+			width: 150px;
+			height: 20px;
+		}
+		.btn{
+			width: 140px;
+			height: 140px;
+		}
+		.sign,.res{
+			margin-left: 75px;
+			font-size: 20px;
+		}
+	</style>
+</head>
+<body>
+
+<div class="cal">
+
+	<input type="text" class="num1" value="" placeholder="请输入数字">
+	<br />
+	<span class="sign">+</span>
+	<br />
+	<input type="text" class="num2" value="" placeholder="请输入数字">
+	<br />
+	<span class="res"></span>
+	<br />
+
+	<input type="button" value="求和" class="btn">
+
+
+</div>
+
+<script>
+	var cal=document.querySelector(".cal");
+
+	var num1=cal.querySelector(".num1");
+	var num2=cal.querySelector(".num2");
+
+	var res=cal.querySelector(".res");
+	var btns=cal.querySelectorAll(".btn");
+
+	btns[0].onclick=function(){
+		res.innerHTML=Number(num1.value)+Number(num2.value);
+	}
+</script>
+
+</body>
+</html>

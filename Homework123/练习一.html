@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>练习一</title>
+
+	<style type="text/css">
+		.div1{
+			margin: 0 auto;
+			width: 400px;
+			height: 400px;
+			border: 1px solid black
+		}
+		.div2{
+			width: 400px;
+			height: 100px;
+			margin: 20px auto;
+			box-sizing: border-box;
+		}
+		.div2 input{
+			width: 100px;
+			height: 40px;
+		}
+		.in1{
+			background-color: gold;
+		}
+		.in2{
+			background-color:  orange;
+		}
+
+
+	</style>
+
+
+</head>
+<body>
+	
+	<div class="div1" id="box"></div>
+	
+	<div class="div2">
+	<input class="in1" id="gold" type="button" name="" value="金色">
+	<input class="in2" id="orange" type="button" name="" value="橙色">
+	</div>
+
+
+</body>
+<script type="text/javascript">
+
+		var gold = document.getElementById('gold');
+		var orange = document.getElementById('orange');
+
+	    var box = document.getElementById('box');
+
+	    gold.onclick = function(){
+	        box.style.background = 'gold';
+	    }
+
+	    orange.onclick = function(){
+	        box.style.background = 'orange';
+	    }
+
+	</script>
+</html>
